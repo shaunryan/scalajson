@@ -2,7 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e405f30d-9983-400a-957c-eb73af57cc57" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/project/build.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_library_2_13_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/scalajson-build.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/sibytes/mjson/CreateJsonFromCollections.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/sibytes/mjson/CreateJsonObjectMethods.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/sibytes/mjson/CreateJsonObjects.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/sibytes/mjson/GetJsonObjectValue.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/sibytes/mjson/MyJsonDocument.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/sibytes/mjson/ParseFragment.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/scalajson.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/scalajson.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/update/update_cache_2.13/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/update/update_cache_2.13/inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/update/update_cache_2.13/output" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/update/update_cache_2.13/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/_global/csrLogger/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/_global/csrLogger/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.13/input_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.13/input_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.13/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.13/output_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/updateClassifiers/_global/streams/update_cache_2.13/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/updateClassifiers/_global/streams/update_cache_2.13/inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/updateClassifiers/_global/streams/update_cache_2.13/output" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/updateClassifiers/_global/streams/update_cache_2.13/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/managedClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/managedClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/managedClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/managedClasspath/_global/streams/export" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +71,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/project" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -55,6 +81,82 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/project" />
     </key>
+  </component>
+  <component name="RunManager" selected="Application.GetJsonObjectValue">
+    <configuration name="CreateJsonFromCollections" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.sibytes.mjson.CreateJsonFromCollections" />
+      <module name="scalajson" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sibytes.mjson.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreateJsonObjectMethods" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.sibytes.mjson.CreateJsonObjectMethods" />
+      <module name="scalajson" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sibytes.mjson.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreateJsonObjects" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.sibytes.mjson.CreateJsonObjects" />
+      <module name="scalajson" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sibytes.mjson.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetJsonObjectValue" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.sibytes.mjson.GetJsonObjectValue" />
+      <module name="scalajson" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sibytes.mjson.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParseFragment" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.sibytes.mjson.ParseFragment" />
+      <module name="scalajson" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sibytes.mjson.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.GetJsonObjectValue" />
+        <item itemvalue="Application.CreateJsonFromCollections" />
+        <item itemvalue="Application.CreateJsonObjectMethods" />
+        <item itemvalue="Application.ParseFragment" />
+        <item itemvalue="Application.CreateJsonObjects" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SbtLocalSettings">
     <option name="availableProjects">
@@ -83,14 +185,9 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="3205042885151" />
-        <entry key="$PROJECT_DIR$/build.sbt" value="3812979160" />
+        <entry key="$PROJECT_DIR$" value="3205043196340" />
+        <entry key="$PROJECT_DIR$/build.sbt" value="486190918" />
         <entry key="$PROJECT_DIR$/project/build.properties" value="196385411" />
-      </map>
-    </option>
-    <option name="projectSyncType">
-      <map>
-        <entry key="$PROJECT_DIR$" value="RE_IMPORT" />
       </map>
     </option>
   </component>
@@ -118,5 +215,35 @@
       <updated>1602600724083</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="693" y="418" width="534" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1602619126960">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="693" y="418" width="534" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.23.1920.1057@0.23.1920.1057" timestamp="1602619126960" />
+    <state width="1878" height="401" key="GridCell.Tab.0.bottom" timestamp="1602619247630">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="401" key="GridCell.Tab.0.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1602619247630" />
+    <state width="1878" height="401" key="GridCell.Tab.0.center" timestamp="1602619247629">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="401" key="GridCell.Tab.0.center/0.23.1920.1057@0.23.1920.1057" timestamp="1602619247629" />
+    <state width="1878" height="401" key="GridCell.Tab.0.left" timestamp="1602619247629">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="401" key="GridCell.Tab.0.left/0.23.1920.1057@0.23.1920.1057" timestamp="1602619247629" />
+    <state width="1878" height="401" key="GridCell.Tab.0.right" timestamp="1602619247630">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="401" key="GridCell.Tab.0.right/0.23.1920.1057@0.23.1920.1057" timestamp="1602619247630" />
+    <state x="653" y="384" key="com.intellij.ide.util.TipDialog" timestamp="1602608293954">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="653" y="384" key="com.intellij.ide.util.TipDialog/0.23.1920.1057@0.23.1920.1057" timestamp="1602608293954" />
+    <state x="625" y="258" width="670" height="676" key="search.everywhere.popup" timestamp="1602618357206">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="625" y="258" width="670" height="676" key="search.everywhere.popup/0.23.1920.1057@0.23.1920.1057" timestamp="1602618357206" />
   </component>
 </project>
