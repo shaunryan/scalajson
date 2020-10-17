@@ -4,24 +4,20 @@ import mjson.Json
 
 object ValidationBySchema extends App{
 
-  // a simple schema that only accepts JSON objects
-  // with a mandatory property id
-  val html = Source.fromURL("http://google.com")
-  val s = html.mkString
+  val schemaStrUrl = Source.fromURL("https://raw.githubusercontent.com/shaunryan/scalajson/main/files/mjson_schema.json").mkString
+  val schemaStrFile = Source.fromFile("./files/mjson_schema.json").mkString
 
-  val schemaObj = Json.`object`("type", "object", "required", Json.array("id"))
-  val schema = Json.schema(schemaObj)
+  val json1 = Json.read("""{"name":"John Doe","age":35}""")
+  val json2 = Json.read("""{"name":"John Doe","age":65}""")
+  val json3 = Json.read("""{"name":"John Doe","age":35}""")
+  val json4 = Json.read("""{"age":35}""")
 
-  val jsonValid = Json.`object`("id", 666, "name", "Britlan")
-  val jsonInvalid = Json.`object`("ID",  666, "name", "Britlan")
+  val schema = Json.schema(Json.read(schemaStrFile))
 
-  val jsonValidResult = schema.validate(jsonValid)
-  val jsonInvalidResult = schema.validate(jsonInvalid)
-  
-  println(jsonValidResult)
-  println(jsonInvalidResult)
-
-
+  println(schema.validate(json1))
+  println(schema.validate(json2))
+  println(schema.validate(json3))
+  println(schema.validate(json4))
 
 }
 

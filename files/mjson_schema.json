@@ -13,8 +13,8 @@
     {
       "description": "A Person's age",
       "type": "number",
-      "maximum": 16,
-      "minimum": 64
+      "maximum": 65,
+      "minimum": 16
     }
   },
   "required": ["name", "age"]
