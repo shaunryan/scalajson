@@ -3,7 +3,6 @@ package com.sibytes.gson
 import java.text.DateFormat
 
 import com.google.gson.{FieldNamingPolicy, Gson, GsonBuilder}
-import com.google.gson.internal.GsonBuildConfig
 
 object IntroToGson extends App{
 
