@@ -15,6 +15,4 @@ object IntroToGson extends App{
     .setPrettyPrinting()
     .setVersion(1.0)
     .create()
-
-
 }
