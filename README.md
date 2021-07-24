@@ -4,11 +4,13 @@
 
 The following JSON libraries are covered.
 
-In progress:
+Done:
  - [mjson](https://bolerio.github.io/mjson/)
+ 
+In progress:
+ - [gson](https://github.com/google/gson)
 
 Planned:
- - [gson](https://github.com/google/gson)
  - [jackson](https://github.com/FasterXML/jackson)
  - [cirse](https://circe.github.io/circe/)
  - [play-json](https://www.playframework.com/)

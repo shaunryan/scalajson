@@ -1,0 +1,21 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Person",
+  "description": "a Person",
+  "type": "object",
+  "properties" : {
+    "name" :
+    {
+      "description": "A Person's name",
+      "type": "string"
+    },
+    "age":
+    {
+      "description": "A Person's age",
+      "type": "number",
+      "maximum": 65,
+      "minimum": 16
+    }
+  },
+  "required": ["name", "age"]
+}
